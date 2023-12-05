@@ -46,7 +46,9 @@ body {
         letter-spacing: 0.32px;
 }
 
-.header-address {}
+.header-address {
+    font-style: normal;
+}
 
 .header-address-list {}
 
@@ -76,10 +78,21 @@ body {
     background-color: #4D5AE5;
     font-family: Roboto, sans-serif;
         font-size: 16px;
+        cursor: pointer;
         font-style: normal;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.64px;
+}
+.hero-button:focus {
+    background-color: #404BBF;
+}
+
+.hero-button:hover {
+  background-color: #404BBF;
+}
+.button-text {
+    color: #FFFFFF;
 }
 
 /* Features */
