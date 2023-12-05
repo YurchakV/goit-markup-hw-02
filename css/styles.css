@@ -3,14 +3,21 @@ body {
     background-color: #ffffff;
     color: #434455;
 }
+
+/* Header */
+
 .header {}
 
 .header-nav {}
 
+.header-nav-list {}
+
+.header-nav-list-item {}
+
 .header-logo {
-    color:#4D5AE5;
-        font-family: Raleway, sans-serif;
-        font-size: 18px;
+    font-family: Raleway, sans-serif;
+       color: #4D5AE5;
+    font-size: 18px;
         font-style: normal;
         font-weight: 700;
         line-height: 1.17;
@@ -19,21 +26,20 @@ body {
 }
 
 .header-logo-color {
+    font-family: Raleway, sans-serif;
     color: #2E2F42;
-        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
         line-height: 1.17;
+        /* 116.667% */
         letter-spacing: 0.54px;
         text-transform: uppercase;
 }
 
-.header-nav-list {}
-
-.header-nav-list-item {
+.header-nav-link {
+    font-family: Roboto;
     color: #2E2F42;
-        font-family: Roboto;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -41,28 +47,14 @@ body {
         letter-spacing: 0.32px;
 }
 
-.header-nav-link {
-    color: #2E2F42;
-}
-
-.header-address {
-    font-style: normal;
-}
+.header-address {}
 
 .header-address-list {}
 
 .header-address-list-item {}
 
-.header-address-link {
-    color:#434455;
-    
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.32px;
-}
+.header-address-link {}
+
 
 /* Hero */
 
@@ -118,8 +110,13 @@ body {
 
 /* Team */
 
+.teamlist {
+    background-color: #F4F4FD;
+}
+
 .team {
     color: #2E2F42;
+    text-align: center;
  font-family: Roboto;
     font-size: 36px;
     font-style: normal;
@@ -131,7 +128,9 @@ body {
 
 .team-list {}
 
-.team-list-item {}
+.team-list-item {
+    background-color: #FFFFFF;
+}
 
 .team-title {
     color: #2E2F42;
@@ -158,6 +157,7 @@ body {
 .portfolio {
     color: #2E2F42;
     font-family: Roboto;
+    text-align: center;
         font-size: 36px;
         font-style: normal;
         font-weight: 700;
@@ -165,7 +165,6 @@ body {
         letter-spacing: 0.72px;
         text-transform: capitalize;
         line-height: 1.11;
-        text-align: center;
 }
 
 .portfolio-list {}
@@ -188,7 +187,7 @@ body {
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 1.2;
+        line-height: 1.5;
         letter-spacing: 0.32px;
 }
 
@@ -227,6 +226,6 @@ body {
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
-        line-height: 1.5x;
+        line-height: 1.5;
         letter-spacing: 0.32px; 
 }
