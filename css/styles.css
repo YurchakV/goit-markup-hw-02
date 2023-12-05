@@ -46,8 +46,12 @@ body {
         letter-spacing: 0.32px;
 }
 
-.header-nav-link:focus:hover {
+.header-nav-link:focus {
     color: #404bbf;
+}
+
+.header-nav-link:hover {
+color: #404bbf;
 }
 
 .header-address {
