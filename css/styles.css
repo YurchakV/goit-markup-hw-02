@@ -46,6 +46,10 @@ body {
         letter-spacing: 0.32px;
 }
 
+.header-nav-link:focus:hover {
+    color: #404bbf;
+}
+
 .header-address {
     font-style: normal;
 }
@@ -54,9 +58,23 @@ body {
 
 .header-address-list-item {}
 
-.header-address-link {}
+.header-address-link {
+    color: #434455;
+    font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.32px;
+}
 
+.header-address-link:hover {
+    color: #404bbf;
+}
 
+.header-address-link:focus {
+    color: #404bbf;
+}
 /* Hero */
 
 .hero-background {
@@ -75,6 +93,7 @@ body {
 }
 
 .hero-button {
+    color: #FFFFFF;
     background-color: #4D5AE5;
     font-family: Roboto, sans-serif;
         font-size: 16px;
@@ -90,9 +109,6 @@ body {
 
 .hero-button:hover {
   background-color: #404BBF;
-}
-.button-text {
-    color: #FFFFFF;
 }
 
 /* Features */
